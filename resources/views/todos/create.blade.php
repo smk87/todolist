@@ -8,5 +8,5 @@
         {{Form::bsTextArea('body')}}
         {{Form::bsText('due')}}
         {{Form::bsSubmit('Submit',['class'=>'btn btn-primary'])}}
-    {!! Form::close( ) !!}
+    {!! Form::close() !!}
 @endsection
